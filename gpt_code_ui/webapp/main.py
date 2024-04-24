@@ -103,7 +103,7 @@ async def get_code(user_prompt, user_openai_key=None, model="gpt-3.5-turbo"):
     {user_prompt}
     
     Notes: 
-        First, think step by step what you want to do and write it down in English.
+        First, think step by step what you want to do and write it down in Chinese or English according to user's language, preferentially use Chinese.
         Then generate valid Python code in a code block 
         Make sure all code is valid - it be run in a Jupyter Python 3 kernel environment. 
         Define every variable before you use it.
