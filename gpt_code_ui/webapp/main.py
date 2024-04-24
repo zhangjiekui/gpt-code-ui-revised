@@ -18,7 +18,7 @@ from dotenv import load_dotenv
 from gpt_code_ui.kernel_program.main import APP_PORT as KERNEL_APP_PORT
 
 load_dotenv('.env')
-
+openai.base_url=os.getenv("OPENAI_API_BASE",'http://10.1.150.105:9997/v1')
 openai.api_version = os.environ.get("OPENAI_API_VERSION")
 openai.log = os.getenv("OPENAI_API_LOGLEVEL")
 OPENAI_EXTRA_HEADERS = json.loads(os.environ.get("OPENAI_EXTRA_HEADERS", "{}"))
