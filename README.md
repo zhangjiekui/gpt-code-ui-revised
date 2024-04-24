@@ -40,6 +40,7 @@ pip install "numpy>=1.24,<1.25" "dateparser>=1.1,<1.2" "pandas>=1.5,<1.6" "geopa
 ```
 ## 常见问题解决
 ```
+### matplotlib绘图中文和负号显示问题
 1、参考https://blog.csdn.net/m0_52650517/article/details/120590020
         import matplotlib
         print(matplotlib.__file__)
