@@ -38,6 +38,11 @@ in the Python environment that is used in the shell where you run `gptcode`:
 ```sh
 pip install "numpy>=1.24,<1.25" "dateparser>=1.1,<1.2" "pandas>=1.5,<1.6" "geopandas>=0.13,<0.14" "tabulate>=0.9.0<1.0" "PyPDF2>=3.0,<3.1" "pdfminer>=20191125,<20191200" "pdfplumber>=0.9,<0.10" "matplotlib>=3.7,<3.8"
 ```
+## 常见问题解决
+```
+1、Matplotlib绘图中文乱码，完整解决方法总结！ https://cloud.tencent.com/developer/article/2407713
+```
+Matplotlib绘图中文乱码，完整解决方法总结！
 
 ## User interface
 <img src="https://github.com/ricklamers/gpt-code-ui/assets/1309307/c29c504a-a7ed-4ae0-9360-d7224bc3e3d6" alt="GPT-Code logo" width="100%" />
