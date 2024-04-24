@@ -2,7 +2,8 @@
 
 # webapp is a Flask app (in webapp/main.py relative to this main.py)
 # kernel_program is a Python script (in kernel_program/main.py relative to this main.py)
-
+import warnings
+warnings.filterwarnings('ignore',"Glyph")
 import sys
 import logging
 import asyncio
