@@ -13,7 +13,21 @@ Judah Cooper offered to start & curate a Discord community. Join [here](https://
 
 Open a terminal and run:
 
+推荐下面的安装方法：
+
 ```
+安装：（本地化接口）
+git clone https://github.com/zhangjiekui/gpt-code-ui-revised.git
+cd gpt-code-ui-revised
+make compile_frontend （如出现错误请升级node）
+pip install -e .
+运行：
+gptcode
+```
+
+
+```
+仅适合原版安装，但只能使用OpenAI接口
 pip install gpt-code-ui
 gptcode
 ```
