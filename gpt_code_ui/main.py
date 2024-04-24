@@ -63,7 +63,10 @@ def print_banner():
         print("")
         print("Find your OpenAI API key at https://platform.openai.com/account/api-keys")
         print("")
-        print_color("Contribute to GPT-Code UI at https://github.com/ricklamers/gpt-code-ui")   
+        print_color("Contribute to GPT-Code UI at https://github.com/ricklamers/gpt-code-ui") 
+        print("=="*30)
+        print("=================已启动完成，下面是运行信息=================")
+        print("=="*30)  
 
 def main():
     setup_logging()
