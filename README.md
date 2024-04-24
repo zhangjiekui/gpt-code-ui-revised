@@ -40,9 +40,15 @@ pip install "numpy>=1.24,<1.25" "dateparser>=1.1,<1.2" "pandas>=1.5,<1.6" "geopa
 ```
 ## 常见问题解决
 ```
-1、Matplotlib绘图中文乱码，完整解决方法总结！ https://cloud.tencent.com/developer/article/2407713
+1、SimHei.ttf字体文件已上传本库中，拷贝字体文件到 ==> /usr/share/fonts。
+2、参考：Matplotlib绘图中文乱码，完整解决方法总结！ https://cloud.tencent.com/developer/article/2407713
+3、设置字体。文件参考位置 /home/jqsoft/miniconda3/lib/python3.12/site-packages/matplotlib/mpl-data/matplotlibrc
+4、增加下面两行
+
+font.family:  sans-serif
+font.sans-serif: SimHei
 ```
-Matplotlib绘图中文乱码，完整解决方法总结！
+
 
 ## User interface
 <img src="https://github.com/ricklamers/gpt-code-ui/assets/1309307/c29c504a-a7ed-4ae0-9360-d7224bc3e3d6" alt="GPT-Code logo" width="100%" />
