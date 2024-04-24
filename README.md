@@ -40,13 +40,18 @@ pip install "numpy>=1.24,<1.25" "dateparser>=1.1,<1.2" "pandas>=1.5,<1.6" "geopa
 ```
 ## 常见问题解决
 ```
-1、SimHei.ttf字体文件已上传本库中，拷贝字体文件到 ==> /usr/share/fonts。
-2、参考：Matplotlib绘图中文乱码，完整解决方法总结！ https://cloud.tencent.com/developer/article/2407713
-3、设置字体。文件参考位置 /home/jqsoft/miniconda3/lib/python3.12/site-packages/matplotlib/mpl-data/matplotlibrc
-4、增加下面两行
+1、参考https://blog.csdn.net/m0_52650517/article/details/120590020
+        import matplotlib
+        print(matplotlib.__file__)
+        找到matplotlib字体存储路径==>matplotlib/mpl-data/fonts/ttf/目录下
 
-font.family:  sans-serif
-font.sans-serif: SimHei
+2、将C:\Windows\Fonts\Microsoft YaHei UI文件夹下的三个字体文件（也已上传到本库中）拷贝到==>matplotlib/mpl-data/fonts/ttf/目录下
+3、设置字体。修改该文件 ==>/matplotlib/mpl-data/matplotlibrc。增加下面两行
+        font.family:  sans-serif
+        font.sans-serif: Microsoft YaHei
+4、删除 matplotlib 缓存
+        cd ~/.cache/matplotlib
+        rm -rf *.*
 ```
 
 
